@@ -13,7 +13,7 @@ function bmi(){
     let ab=(w/(h*h));
    let ans=ab.toFixed(2);
     
-    if(h==null||h==''&& w==''||w==null){
+    if(h==null||h==''|| w==''||w==null){
         alert("filled the given parameters");
     }
     else{
